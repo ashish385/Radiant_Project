@@ -18,13 +18,13 @@ const Header = () => {
                 className=" outline-none py-[6px] pl-8 text-gray-500  rounded-lg"
               />
             </li>
-            <li className="hover:text-white cursor-pointer hidden lg:block">
+            <li className="hover:text-white cursor-pointer hidden lg:block mt-1">
               Categories
             </li>
-            <li className="hover:text-white cursor-pointer hidden lg:block">
+            <li className="hover:text-white cursor-pointer hidden lg:block mt-1">
               Website Builders
             </li>
-            <li className="hover:text-white cursor-pointer hidden lg:block">
+            <li className="hover:text-white cursor-pointer hidden lg:block mt-1">
               Today's deals
             </li>
           </ul>
@@ -45,8 +45,8 @@ const Header = () => {
                 Categories
               </span>
             </li>
-            <li>
-              <span className="hover:text-white  px-3 py-2 rounded">
+            <li className="">
+              <span className="hover:text-white   px-3 py-2 rounded">
                 Website Builders
               </span>
             </li>
